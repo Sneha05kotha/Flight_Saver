@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="card.css">
+</head>
+<body>
+<table class="table">
+	<tr>
+		<td colspan='4' class="bg">Payment</td>
+	</tr>
+	<tr>
+		<td colspan='4' style="text-align:right;"><img class="img" src="http://i76.imgup.net/accepted_c22e0.png"></td>
+	</tr>
+	<tr>
+		<td colspan='4'>CARD HOLDER NAME</td>
+	</tr>
+	<tr>
+		<td colspan='4'><input class="inp2" type="text" name="CH_Name" placeholder="full name"/></td>
+	</tr>
+	<tr>
+		<td colspan='4'>CARD NUMBER</td>
+	</tr>
+	<tr>
+		<td><input class="inp" type="tel"  name="cardNumber" maxlength="4" pattern="^0[1-9]|[1-9]\d$" placeholder="----" autocomplete="cc-number" required autofocus /> </td>
+		<td><input type="tel" class="inp" name="cardNumber" maxlength="4" pattern="^0[1-9]|[1-9]\d$" placeholder="----" autocomplete="cc-number" required autofocus />  </td>
+		<td><input type="tel" class="inp" name="cardNumber" maxlength="4" pattern="^0[1-9]|[1-9]\d$" placeholder="----" autocomplete="cc-number" required autofocus />  </td>
+		<td><input type="tel" class="inp" name="cardNumber" maxlength="4" pattern="^0[1-9]|[1-9]\d$" placeholder="----" autocomplete="cc-number" required autofocus />  </td>
+	</tr>
+	<tr>
+		<td colspan='2'>EXPIRY DATE</td>	
+		<td colspan='2'>CVV</td>
+	</tr>
+	<tr>
+		<td colspan='2'>
+		<input type="tel" class="form-control" name="cardExpiry" pattern="^(0[1-9]|1[012])\/\d{2}$" placeholder="MM / YY" autocomplete="cc-exp" required /></td>
+		<td colspan='2'><input type="tel" class="form-control" name="cardCVC" placeholder="CODE" autocomplete="cc-csc" required /></td>
+	</tr>
+	<tr>
+		<td colspan="2"></td>
+		<td colspan="2" align="right"><button onclick="window.location.href='ticket.html';" class="ticket">FINISH PAYMENT</button></td>
+	</tr>
+</table>
+<footer>
+<img class="im_size" src="facebook-logo.jpg">
+<img class="im_size" src="twitter.jpeg">
+</footer>
+</body>
+</html>

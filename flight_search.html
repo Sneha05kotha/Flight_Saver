@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Search</title>
+  <link rel="stylesheet" href="flight_search.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="column" id="content">
+      <h1 class="element">
+        Flight Search
+      </h1>
+
+      <div class="element">
+        <select id="flight-round-trip-or-one-way">
+          <option value="round-trip">Round Trip</option>
+          <option value="one-way">One Way</option>
+        </select>
+
+        <select id="flight-passenger-count">
+          <option value="1-passenger">1 Passenger</option>
+          <option value="2-passengers">2 Passengers</option>
+          <option value="3-passengers">3 Passengers</option>
+        </select>
+
+        <select id="flight-class">
+          <option value="first-class">First Class</option>
+          <option value="business-class">Business Class</option>
+          <option value="economy-class">Economy Class</option>
+        </select>
+
+      </div>
+
+      <div class="element" style="margin-top: 0px">
+        <select id="flight-source">
+          <option value="" disabled selected>Where from?</option>
+          <option value="Earth">Earth</option>
+        </select>
+        
+        <select id="flight-destination">
+          <option value="" disabled selected>Where to?</option>
+          <option value="Earth">Earth</option>
+        </select>
+
+        <input placeholder="Departure" class="textbox-n" type="text" onfocus="(this.type='date')" id="flight-departure-date">
+        <input placeholder="Arrival" class="textbox-n" type="text" onfocus="(this.type='date')" id="flight-arrival-date">
+  
+      </div>
+
+      <div class="element">
+        <table id="flight-details">
+          <tr>
+            <th>Flight Number</th>
+            <th>Airline</th>
+            <th>Departure Date</th>
+            <th>Departure Timings</th>
+            <th>Duration/Stops</th>
+            <th>Select</th>
+          </tr>
+          <tr>
+            <td>AC776</td>
+            <td>Westjet</td>
+            <td>02-06-2020</td>
+            <td>14h30m (2 stops)</td>
+            <td>14:30</td>
+            <td><input type="radio"></td>
+          </tr>
+          <tr>
+            <td>AC657</td>
+            <td>Delta</td>
+            <td>02-06-2020</td>
+            <td>18h10m (2 stops)</td>
+            <td>16:00</td>
+            <td><input type="radio"></td>
+          </tr>
+          <tr>
+            <td>KR876</td>
+            <td>Swoop</td>
+            <td>02-06-2020</td>
+            <td>12h10m (2 stops)</td>
+            <td>18:30</td>
+            <td><input type="radio"></td>
+          </tr>
+          <tr>
+            <td>BG441</td>
+            <td>Virgin</td>
+            <td>02-06-2020</td>
+            <td>21h45m (2 stops)</td>
+            <td>21:00</td>
+            <td><input type="radio"></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="element" id="button-container">
+        <button class="bottom-button" id="early-button">
+          Early Flights
+        </button>
+
+        <button class="bottom-button" id="late-button">
+          Late Flights
+        </button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

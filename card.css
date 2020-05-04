@@ -1,0 +1,159 @@
+body { margin:70px auto; width:600px;}
+
+.bg{
+	background-color:#0000FF;
+	color: white;	font-size: 20px;
+}
+.bcimage{
+	background-image: url('ATR-WATERMARK.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:350px;
+	width:900px;
+}
+.bo{
+	font-style:bold;
+}
+.timage{
+	width:550px;
+	height: 250px;
+}
+.inp{
+	width:80px;
+	background-color: #d6d6c2;
+	border: 0px;
+	text-align: center;
+	height: 25px;
+}
+.lab{
+	width:180px;
+	background-color: #d6d6c2;
+	border: 0px;
+	text-align: center;
+	height: 40px;
+}
+.btn_chat{
+	border: 0px;
+	width:70px;
+	height: 40px;
+	background-color:#0000FF;
+	color:white;
+}
+.ticket{
+	border: 0px;
+	width:100px;
+	height: 30px;
+	background-color:#0000FF;
+	color:white;
+}
+.btn_Cancel{
+	border: 0px;
+	width:70px;
+	height: 40px;
+	background-color:red;
+	color:white;
+}
+.btn_Proceed{
+	border: 0px;
+	width:70px;
+	height: 40px;
+	background-color:green;
+	color:white;
+}
+.lab2{
+	width:70px;
+	background-color: #d6d6c2;
+	border: 0px;
+	text-align: center;
+	height: 40px;
+	
+}
+.bSize{
+	border: 0px;
+	width:170px;
+	height: 40px;
+	background-color:#0000FF;
+	color:white;
+}
+.im_size{
+	width:20px;
+	height:20px;
+}
+.bSize2{
+	border: 0px;
+	width:70px;
+	height: 40px;
+	background-color:#0000FF;
+	color:white;
+}
+
+.div1{
+	text-align:left;
+	padding: 20px;
+}
+.img{
+	height: 25px;
+}
+.img2{
+	height: 60px;
+}
+header {
+  background-color: #0000FF;
+  padding: 50px;
+  
+  font-size: 35px;
+  color: white;
+}
+footer {
+  background-color: #0000FF;
+  padding: 30px;  
+  color: white;
+}
+.inp2{
+	width:345px;
+	background-color: #d6d6c2;
+	border: 0px;	
+	height: 25px;
+}
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box.form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}

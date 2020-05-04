@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Exchange</title>
+  <link rel="stylesheet" href="user_exchange.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="column" id="content">
+      <h1 class="element">
+        User Exchange
+      </h1>
+
+      <div class="element">
+        <h4>Flight Details</h4>
+        <table id="flight-details">
+          <tr>
+            <th>Airline</th>
+            <th>Trip</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Duration</th>
+          </tr>
+          <tr>
+            <td>Westjet</td>
+            <td>Halifax - Sydney</td>
+            <td>23.02.2020</td>
+            <td>04:50 - 17:20</td>
+            <td>14h30m (2 stops)</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="element">
+        <label for="ticket-price">Ticket Price:</label>
+        <input type="text" id="ticket-price" name="ticket-price" value="$"><br><br>
+      </div>
+
+      <div class="element" id="button-container">
+        <button class="bottom-button" id="chat-button">
+          Chat
+        </button>
+
+        <button class="bottom-button" id="cancel-button">
+          Cancel
+        </button>
+
+        <button class="bottom-button" id="proceed-button">
+          Proceed
+        </button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

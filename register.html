@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="regstyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container" id="container">
+<div class="form-container sign-up-container">
+
+<form action="">
+	<h1>Create Account</h1>
+	
+	
+	<input type="text" name="name" placeholder="Name">
+	<input type="email" name="email" placeholder="Email">
+	
+	<input type="passport" name="passport" placeholder="Passport Number">
+	<input type="Dob" name="Dob" placeholder="Date Of Birth">
+	<input type="Phone" name="Phone" placeholder="Phone Number">
+	<input type="password" name="password" placeholder="Choose Password">
+	<button>SignUp</button>
+</form>
+</div>
+<div class="form-container sign-in-container">
+	<form action="#">
+		<h1>Login</h1>
+	
+	
+	<input type="email" name="email" placeholder="Email">
+	<input type="password" name="password" placeholder="Password">
+	<a href="#">Forgot Your Password?</a>
+	
+
+	<button>Sign In</button>
+	</form>
+</div>
+<div class="overlay-container">
+	<div class="overlay">
+		<div class="overlay-panel overlay-left">
+			<h1>Alredy a user?</h1>
+			<p>You can login here</p>
+			<button class="ghost" id="signIn">Login</button>
+		</div>
+		<div class="overlay-panel overlay-right">
+			<h1>New to flightsaver?</h1>
+			<p>Sign-up here to gain access to many deals on tickets</p>
+			<button class="ghost" id="signUp">Sign Up</button>
+		</div>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	const signUpButton = document.getElementById('signUp');
+	const signInButton = document.getElementById('signIn');
+	const container = document.getElementById('container');
+
+	signUpButton.addEventListener('click', () => {
+		container.classList.add("right-panel-active");
+	});
+	signInButton.addEventListener('click', () => {
+		container.classList.remove("right-panel-active");
+	});
+</script>
+
+
+</body>
+</html>
